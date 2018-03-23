@@ -1,16 +1,17 @@
 {
 	// Background colour: #1a2229
 	// Selected entities: #2a373f
+	// Lighter entities: #303d44
 	"type": "dark",
 	"colors": {
 		"input.background": "#222c34",
 		"input.border": "#232c31",
 		"inputOption.activeBorder": "#232c31",
 		"dropdown.background": "#222c34",
-		"list.focusBackground": "#232c31",
+		"list.focusBackground": "#303d44",
 		"list.activeSelectionBackground": "#2a373f",
 		"list.inactiveSelectionBackground": "#1d262c",
-		"list.hoverBackground": "#232c31",
+		"list.hoverBackground": "#303d44",
 		"button.background": "#1a2229",
 		"button.hoverBackground": "#2a373f",
 		"editor.background": "#1a2229",
@@ -39,8 +40,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#92cef1",
-				"background": "#1a2229"
+				"foreground": "#92cef1"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#f4cf77"
+				"foreground": "#ffbd23"
 			}
 		},
 		{
@@ -103,6 +103,14 @@
 			"scope": "storage",
 			"settings": {
 				"foreground": "#ea6442"
+			}
+		},
+		{
+			"name": "Python imports",
+			"scope": "keyword.control.import.python",
+			"settings": {
+				"foreground": "#ea6442",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -232,7 +240,7 @@
 			"name": "JSON String",
 			"scope": "meta.structure.dictionary.json string.quoted.double.json",
 			"settings": {
-				"foreground": "#f4cf77"
+				"foreground": "#ffbd23"
 			}
 		},
 		{
@@ -270,21 +278,7 @@
 			"name": "diff.changed",
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#f4cf77"
-			}
-		},
-		{
-			"name": "♦ Embedded Source (Bright)",
-			"scope": "text.html.ruby source",
-			"settings": {
-				"background": "#0B0B0B"
-			}
-		},
-		{
-			"name": "♦ Embedded Source",
-			"scope": "text source",
-			"settings": {
-				"background": "#00000025"
+				"foreground": "#ffbd23"
 			}
 		},
 		{
@@ -319,12 +313,10 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation.definition.string",
-				"punctuation.definition.string",
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#ffbd23"
 			}
 		},
 		{
@@ -349,7 +341,7 @@
 				"variable.decl.sass"
 			],
 			"settings": {
-				"foreground": "#f4cf77"
+				"foreground": "#ffbd23"
 			}
 		},
 		{
@@ -417,7 +409,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#f4cf77"
+				"foreground": "#ffbd23"
 			}
 		},
 		{
