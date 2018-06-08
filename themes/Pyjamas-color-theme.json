@@ -327,6 +327,22 @@
 			}
 		},
 		{
+			"name": "js string template variable",
+			"scope": "meta.template.expression variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#92cef1"
+			}
+		},
+		{
+			"name": "js string template brackets",
+			"scope": "meta.template.expression punctuation.definition.template-expression",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#74ed78"
+			}
+		},
+		{
 			"name": "SASS name",
 			"scope": "entity.name.selector",
 			"settings": {
