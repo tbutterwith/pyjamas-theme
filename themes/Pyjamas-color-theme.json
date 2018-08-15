@@ -125,7 +125,6 @@
 			"name": "Class name",
 			"scope": "entity.name.class",
 			"settings": {
-				"fontStyle": "underline",
 				"foreground": "#5ab55d"
 			}
 		},
@@ -136,7 +135,6 @@
 				"keyword.control.flow.js"
 			],
 			"settings": {
-				"fontStyle": "underline",
 				"foreground": "#5ab55d"
 			}
 		},
