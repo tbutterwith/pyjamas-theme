@@ -57,7 +57,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#ffbd23"
+				"foreground": "#ffdb89"
 			}
 		},
 		{
@@ -126,7 +126,7 @@
 			"scope": "entity.name.class",
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#74ED78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#74ED78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -145,7 +145,7 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74ed78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -182,7 +182,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74ed78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -190,7 +190,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74ed78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -198,7 +198,7 @@
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74ed78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -240,7 +240,7 @@
 			"name": "JSON String",
 			"scope": "meta.structure.dictionary.json string.quoted.double.json",
 			"settings": {
-				"foreground": "#ffbd23"
+				"foreground": "#ffdb89"
 			}
 		},
 		{
@@ -271,14 +271,14 @@
 			"name": "diff.inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#74ed78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
 			"name": "diff.changed",
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#ffbd23"
+				"foreground": "#ffdb89"
 			}
 		},
 		{
@@ -316,7 +316,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#ffbd23"
+				"foreground": "#ffdb89"
 			}
 		},
 		{
@@ -339,7 +339,7 @@
 			"scope": "meta.template.expression punctuation.definition.template-expression",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74ed78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -357,14 +357,14 @@
 				"variable.decl.sass"
 			],
 			"settings": {
-				"foreground": "#ffbd23"
+				"foreground": "#ffdb89"
 			}
 		},
 		{
 			"name": "TS annotations",
 			"scope": "annotation.parameters.ts",
 			"settings": {
-				"foreground": "#74ED78",
+				"foreground": "#5ab55d",
 				"fontStyle": ""
 			}
 		},
@@ -397,7 +397,7 @@
 				"markup.bold.markdown"
 			],
 			"settings": {
-				"foreground": "#74ED78"
+				"foreground": "#5ab55d"
 			}
 		},
 		{
@@ -425,7 +425,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#ffbd23"
+				"foreground": "#ffdb89"
 			}
 		},
 		{
