@@ -114,6 +114,17 @@
 			}
 		},
 		{
+			"name": "Python Doc Strings",
+			"scope": [
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+				"string.quoted.docstring.multi.python",
+			],
+			"settings": {
+				"foreground": "#5a7690"
+			}
+		},
+		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
