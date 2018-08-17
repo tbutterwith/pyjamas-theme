@@ -15,7 +15,7 @@
 		"button.background": "#1a2229",
 		"button.hoverBackground": "#2a373f",
 		"editor.background": "#1a2229",
-		"editor.foreground": "#92cef1",
+		"editor.foreground": "#68b9e8",
 		"editor.selectionBackground": "#2a373f",
 		"editor.lineHighlightBackground": "#212c35",
 		"editorCursor.foreground": "#f3f2f4",
@@ -40,7 +40,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#92cef1"
+				"foreground": "#68b9e8"
 			}
 		},
 		{
@@ -136,7 +136,7 @@
 			"name": "Class name",
 			"scope": "entity.name.class",
 			"settings": {
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -146,7 +146,7 @@
 				"keyword.control.flow.js"
 			],
 			"settings": {
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -154,7 +154,7 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -191,7 +191,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -199,7 +199,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -280,7 +280,7 @@
 			"name": "diff.inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -340,7 +340,7 @@
 			"scope": "meta.template.expression variable",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#92cef1"
+				"foreground": "#68b9e8"
 			}
 		},
 		{
@@ -348,7 +348,7 @@
 			"scope": "meta.template.expression punctuation.definition.template-expression",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -373,7 +373,7 @@
 			"name": "TS annotations",
 			"scope": "annotation.parameters.ts",
 			"settings": {
-				"foreground": "#5ab55d",
+				"foreground": "#69f46d",
 				"fontStyle": ""
 			}
 		},
@@ -406,7 +406,7 @@
 				"markup.bold.markdown"
 			],
 			"settings": {
-				"foreground": "#5ab55d"
+				"foreground": "#69f46d"
 			}
 		},
 		{
@@ -417,7 +417,7 @@
 				"punctuation.definition.metadata.markdown"
 			],
 			"settings": {
-				"foreground": "#92cef1"
+				"foreground": "#68b9e8"
 			}
 		},
 		{
