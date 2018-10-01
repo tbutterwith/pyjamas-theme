@@ -337,7 +337,11 @@
 		},
 		{
 			"name": "js string template variable",
-			"scope": "meta.template.expression variable",
+			"scope": [
+				"meta.template.expression variable",
+				"meta.template.expression meta.brace.round",
+				"meta.template.expression punctuation.accessor"
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#68b9e8"
