@@ -1,6 +1,6 @@
 {
 	// Background colour: #1a2229
-	// Selected entities: #2a373f
+	// Selected entities: #586065
 	// Lighter entities: #303d44
 	"type": "dark",
 	"colors": {
@@ -9,14 +9,14 @@
 		"inputOption.activeBorder": "#232c31",
 		"dropdown.background": "#222c34",
 		"list.focusBackground": "#303d44",
-		"list.activeSelectionBackground": "#2a373f",
+		"list.activeSelectionBackground": "#586065",
 		"list.inactiveSelectionBackground": "#1d262c",
 		"list.hoverBackground": "#303d44",
 		"button.background": "#1a2229",
-		"button.hoverBackground": "#2a373f",
+		"button.hoverBackground": "#586065",
 		"editor.background": "#1a2229",
 		"editor.foreground": "#68b9e8",
-		"editor.selectionBackground": "#2a373f",
+		"editor.selectionBackground": "#586065",
 		"editor.lineHighlightBackground": "#212c35",
 		"editorCursor.foreground": "#f3f2f4",
 		"editorWhitespace.foreground": "#abb2bf",
@@ -24,8 +24,8 @@
 		"peekViewResult.background": "#232c31",
 		"peekViewEditor.background": "#222c34",
 		"tab.activeBackground": "#1a2229",
-		"tab.inactiveBackground": "#2a373f",
-		"tab.border": "#2a373f",
+		"tab.inactiveBackground": "#586065",
+		"tab.border": "#586065",
 		"editorGroup.background": "#222c34",
 		"editorGroupHeader.tabsBackground": "#222c34",
 		"statusBar.background": "#222c34",
