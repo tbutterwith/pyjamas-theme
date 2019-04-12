@@ -19,6 +19,11 @@
                 "label": "Pyjamas",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Pyjamas-color-theme.json"
+            },
+            {
+                "label": "Pyjamas Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Pyjamas-blue.json"
             }
         ]
     }
