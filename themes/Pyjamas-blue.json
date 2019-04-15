@@ -109,8 +109,11 @@
 			}
 		},
 		{
-			"name": "Python imports",
-			"scope": "keyword.control.import.python",
+			"name": "Imports",
+			"scope": [
+				"keyword.control.import",
+				"keyword.control.from"
+			],
 			"settings": {
 				"foreground": "#ea6442",
 				"fontStyle": "italic"
@@ -130,7 +133,8 @@
 		{
 			"name": "Python self as param",
 			"scope": [
-				"variable.parameter.function.language.special.self.python"
+				"variable.parameter.function.language.special.self.python",
+				"variable.parameter.function.language.special.cls.python"
 			],
 			"settings": {
 				"foreground": "#ea6442",
@@ -140,11 +144,21 @@
 		{
 			"name": "Python self - in function",
 			"scope": [
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"variable.language.special.cls.python"
 			],
 			"settings": {
 				"foreground": "#ea6442",
 			}
+		},
+		{
+			"name": "Python decorators",
+			"scope": [
+				"punctuation.definition.decorator.python",
+				"meta.function.decorator.python",
+				"support.type.python"
+			],
+			"settings":{ "foreground": "#1abc9c" }
 		},
 		{
 			"name": "Storage type",
@@ -158,7 +172,7 @@
 			"name": "Class name",
 			"scope": "entity.name.class",
 			"settings": {
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -168,7 +182,7 @@
 				"keyword.control.flow.js"
 			],
 			"settings": {
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -176,7 +190,7 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -213,7 +227,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -221,7 +235,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -229,7 +243,7 @@
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -239,7 +253,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#1ABC9C"
+				"foreground": "#ea6442"
 			}
 		},
 		{
@@ -302,7 +316,7 @@
 			"name": "diff.inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -374,7 +388,7 @@
 			"scope": "meta.template.expression punctuation.definition.template-expression",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -399,7 +413,7 @@
 			"name": "TS annotations",
 			"scope": "annotation.parameters.ts",
 			"settings": {
-				"foreground": "#69f46d",
+				"foreground": "#1abc9c",
 				"fontStyle": ""
 			}
 		},
@@ -411,7 +425,7 @@
 				"annotation.entity.parameters.ts"
 			],
 			"settings": {
-				"foreground": "#1ABC9C",
+				"foreground": "#ea6442",
 				"fontStyle": ""
 			}
 		},
@@ -432,7 +446,7 @@
 				"markup.bold.markdown"
 			],
 			"settings": {
-				"foreground": "#69f46d"
+				"foreground": "#1abc9c"
 			}
 		},
 		{
@@ -453,7 +467,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#1ABC9C"
+				"foreground": "#ea6442"
 			}
 		},
 		{
