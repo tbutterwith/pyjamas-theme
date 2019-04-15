@@ -1,0 +1,12 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 75% georgia, sans-serif;
+  background: url(http://example.com/001/example-bg.jpg) no-repeat top left;
+  line-height: 1.88889;
+  color: #555753;
+  display: flex;
+}
