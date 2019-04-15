@@ -2,7 +2,7 @@
     "name": "pyjamas",
     "displayName": "Pyjamas",
     "description": "A dark colour theme for VSCode",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "publisher": "tbutterwith",
     "repository": {
         "url": "https://github.com/tbutterwith/pyjamas-theme"
