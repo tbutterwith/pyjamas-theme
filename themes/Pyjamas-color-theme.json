@@ -150,8 +150,12 @@
 			}
 		},
 		{
-			"name": "Function name",
-			"scope": "entity.name.function",
+			"name": "Function name/call",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call.generic",
+				"meta.function-call.js"
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#69f46d"
