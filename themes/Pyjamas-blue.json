@@ -8,7 +8,7 @@
 		"input.border": "#0b1f30",
 		"inputOption.activeBorder": "#0b1f30",
 		"dropdown.background": "#081826",
-		"list.focusBackground": "#0b1f30",
+		"list.focusBackground": "#0f2a42",
 		"list.activeSelectionBackground": "#0f2a42",
 		"list.inactiveSelectionBackground": "#0f2a42",
 		"list.inactiveSelectionForeground": "#adcadd",
