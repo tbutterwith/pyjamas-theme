@@ -162,6 +162,16 @@
 			}
 		},
 		{
+			"name": "Javascript Type Annotations",
+			"scope": [
+				"entity.name.type.js",
+				"keyword.operator.type.js"
+			],
+			"settings": {
+				"foreground": "#1ABC9C"
+			}
+		},
+		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
