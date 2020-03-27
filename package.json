@@ -13,17 +13,21 @@
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "vscode:prepublish": "npm build_themes",
+        "build_themes": "node src/buildThemes.js"
+    },
     "contributes": {
         "themes": [
             {
                 "label": "Pyjamas",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Pyjamas-color-theme.json"
+                "path": "./dist/themes/Pyjamas-Base.json"
             },
             {
                 "label": "Pyjamas Blue",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Pyjamas-blue.json"
+                "path": "./dist/themes/Pyjamas-Blue.json"
             }
         ]
     }
