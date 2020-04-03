@@ -28,6 +28,11 @@
                 "label": "Pyjamas Blue",
                 "uiTheme": "vs-dark",
                 "path": "./dist/themes/Pyjamas-Blue.json"
+            },
+            {
+                "label": "Pyjamas Purple",
+                "uiTheme": "vs-dark",
+                "path": "./dist/themes/Pyjamas-Purple.json"
             }
         ]
     }
