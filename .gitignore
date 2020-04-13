@@ -2,3 +2,5 @@ node_modules
 *.vsix
 dist/
 .vscode/settings.json
+
+*/.DS_Store
