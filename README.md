@@ -1,5 +1,7 @@
-# Pyjamas VS Code Dark Theme
 
+![Logo](screenshots/logo_name.png)
+
+# Pyjamas VS Code Dark Theme
 Based on the FlatUI theme from [danibram](https://github.com/danibram/flat-ui-syntax-vscode).
 
 ## Screenshots
