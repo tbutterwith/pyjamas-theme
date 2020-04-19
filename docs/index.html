@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Pyjamas - VS Code Theme</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="page-wrap blue">
+      <div class="page-content">
+
+        <header>
+          <div>
+            <h1>Pyjamas</h1>
+            <h4>Theme for VS Code</h4>
+          </div>
+          <div class="theme_picker_container">
+            <div class="theme_picker" id="default-theme">
+              <div class="theme-inner"></div>
+            </div>
+            <div class="theme_picker" id="blue-theme">
+              <div class="theme-inner"></div>
+            </div>
+            <div class="theme_picker" id="purple-theme">
+              <div class="theme-inner"></div>
+            </div>
+          </div>
+        </header>
+        <hr />
+        <content>
+          <p>Pyjamas is a set of dark themes for VS Code. Consisting of three themes - default, blue, and purple - and a wide range of syntax selectors, Pyjamas has something for everyone no matter the codebase.</p>
+          <p>Use the selector at the top of the page to try out the different themes.</p>
+          
+          <h2>Installation Options</h2>
+          <ol>
+            <li>Install through the VS Code Marketplace</li>
+            <li>Install through the VS Code app</li>
+            <li>Build from source in GitHub</li>
+          </ol>
+
+          <h2>Default Theme</h2>
+          <div class="screenshot_container">
+            <div class="gui_screenshot">
+              <img src="/images/default_theme/gui.png"/>
+            </div>
+            <div class="code_screenshots">
+              <img src="/images/default_theme/javascript.png" />
+              <img src="/images/default_theme/python.png" />
+            </div>
+          </div>
+          <h2>Blue</h2>
+          <div class="screenshot_container">
+            <div class="gui_screenshot">
+              <img src="/images/blue_theme/gui.png"/>
+            </div>
+            <div class="code_screenshots">
+              <img src="/images/blue_theme/javascript.png" />
+              <img src="/images/blue_theme/python.png" />
+            </div>
+          </div>
+          <h2>Purple</h2>
+          <div class="screenshot_container">
+            <div class="gui_screenshot">
+              <img src="/images/purple_theme/gui.png"/>
+            </div>
+            <div class="code_screenshots">
+              <img src="/images/purple_theme/javascript.png" />
+              <img src="/images/purple_theme/python.png" />
+            </div>
+          </div>
+        </content>
+      </div>
+    </div>
+    <script>
+      const changeTheme = (text, secondary, background) => {
+        document.documentElement.style.setProperty('--text-color', text);
+        document.documentElement.style.setProperty('--secondary-text-color', secondary);
+        document.documentElement.style.setProperty('--background-color', background);
+      };
+
+      const defaultButton = document.querySelector('#default-theme');
+      defaultButton.addEventListener('click', () => {
+        changeTheme('#68B9E8', '#5A7690', '#232C31');
+      });
+
+      const blueButton = document.querySelector('#blue-theme');
+      blueButton.addEventListener('click', () => {
+        changeTheme('#adcadd', '#5a7690', '#0b1f30');
+      });
+
+      const purpleButton = document.querySelector('#purple-theme');
+      purpleButton.addEventListener('click', () => {
+        changeTheme('#5fdbce', '#5a7690', '#240625');
+      });
+      </script>
+  </body>
+  </html>
