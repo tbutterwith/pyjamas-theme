@@ -53,3 +53,27 @@ This package also contains a blue variant as shown below.
 ### CSS
 
 ![CSS Example](screenshots/blue_theme/css.png)
+
+### Purple Theme
+
+This package also contains a purple variant as shown below.
+
+### GUI
+
+![GUI Example](screenshots/purple_theme/gui.png)
+
+### Javascript
+
+![Javascript Example](screenshots/purple_theme/javascript.png)
+
+### Python
+
+![Python Example](screenshots/purple_theme/python.png)
+
+### HTML
+
+![HTML Example](screenshots/purple_theme/html.png)
+
+### CSS
+
+![CSS Example](screenshots/purple_theme/css.png)
