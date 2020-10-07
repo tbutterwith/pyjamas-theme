@@ -2,8 +2,8 @@ const THEME = {
   name: "Base",
   vars: {
     type: "dark",
-    background: "#222c34",
-    editor_background: "#232c31",
+    background: "#151b21",
+    editor_background: "#1a2228",
     button_background: "#303d44",
     base_text: "#68b9e8",
     selection_background: "#1c3a54",
