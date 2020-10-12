@@ -15,7 +15,11 @@
     ],
     "scripts": {
         "vscode:prepublish": "npm run build_themes",
-        "build_themes": "node src/buildThemes.js"
+        "build_themes": "node src/buildThemes.js",
+        "deploy": "vsce publish --yarn"
+    },
+    "devDependencies": {
+        "vsce": "^1.77.0"
     },
     "contributes": {
         "themes": [
