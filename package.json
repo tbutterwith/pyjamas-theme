@@ -16,7 +16,7 @@
     "scripts": {
         "vscode:prepublish": "npm run build_themes",
         "build_themes": "node src/buildThemes.js",
-        "deploy": "vsce publish --npm"
+        "deploy": "vsce publish"
     },
     "devDependencies": {
         "vsce": "^2.1.0"
