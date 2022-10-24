@@ -19,7 +19,7 @@
         "deploy": "vsce publish"
     },
     "devDependencies": {
-        "vsce": "^2.1.0"
+        "vsce": "^2.13.0"
     },
     "contributes": {
         "themes": [
